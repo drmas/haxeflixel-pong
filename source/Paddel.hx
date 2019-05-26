@@ -11,6 +11,7 @@ class Paddel extends FlxSprite {
     upKey = _upKey;
     downKey = _downKey;
     makeGraphic(10, 100, FlxColor.WHITE);
+    immovable = true;
   }
 
   override function update(elapsed:Float) {
